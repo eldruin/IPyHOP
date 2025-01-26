@@ -1,0 +1,36 @@
+[project]
+name = "ipyhop"
+dynamic = ["version"]
+authors = [
+  { name="Yash Bansod", email="theyashbansod@gmail.com" },
+]
+description = "IPyHOP is a Re-entrant Iterative GTPyHOP written in Python 3. PyHOP is an acronym for Python Hierarchical Ordered Planner. "
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
+keywords = ["planning", "HTN"]
+dependencies = [
+    "networkx>=3.4,<4",
+    "matplotlib>=3.10.0,<4",
+    "numpy>=1.19,<2",
+    "tqdm>=4.67.1,<5"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/YashBansod/IPyHOP"
+"Bug Tracker" = "https://github.com/YashBansod/IPyHOP/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/ipyhop/__init__.py"
+
+# To build, for example, install astral's uv and run: uv build
