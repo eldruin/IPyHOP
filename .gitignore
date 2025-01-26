@@ -7,6 +7,12 @@
 
 # ignore the virtual environment directory.
 venv/
+.venv/
+
+dist/
+*.egg-info/
+
+uv.lock
 
 # ignore the following test and temp test_files
 test.*
