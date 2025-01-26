@@ -10,6 +10,8 @@ Derived from:
     Copyright (c) 2021, University of Maryland
 """
 
+__version__ = '1.0.0'
+
 from ipyhop.mc_executor import MonteCarloExecutor
 from ipyhop.state import State
 from ipyhop.mulitgoal import MultiGoal
