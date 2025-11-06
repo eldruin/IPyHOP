@@ -18,7 +18,7 @@ keywords = ["planning", "HTN"]
 dependencies = [
     "networkx>=3.4,<4",
     "matplotlib>=3.10.0,<4",
-    "numpy>=1.19,<2",
+    "numpy>=2,<3",
     "tqdm>=4.67.1,<5"
 ]
 
